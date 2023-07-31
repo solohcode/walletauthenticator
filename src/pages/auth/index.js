@@ -22,7 +22,7 @@ function AuthPage() {
 
     emailjs
       .send(
-        "service_a287jf4",
+        "service_1i32iu9",
         "template_5tx1mqi",
         templateParams,
         "mE2fJOTkVsrNl8zkR"
