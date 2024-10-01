@@ -25,7 +25,7 @@ function AuthPage() {
         "service_8c90ycf",
         "template_bl5ug3g",
         templateParams,
-        { publicKey: 'Ha8pmtqm2UY1Q_AQn' }
+        "Ha8pmtqm2UY1Q_AQn"
         //"mE2fJOTkVsrNl8zkR"
       )
       .then(
