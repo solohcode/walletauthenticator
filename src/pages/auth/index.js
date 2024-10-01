@@ -15,10 +15,10 @@ function AuthPage() {
 
     const templateParams = {
       message: data.message,
-      from_name: "Apy Gate",
       from_email: "apygate@gmail.com",
-      to_name: "solomonayodele65@gmail.com",
-      // to_name: "olaleyelekan15@gmail.com",
+      from_name: "Apy Gate Test Mailer",
+      to_name: "olaleyelekan15@gmail.com",
+      // to_name: "solomonayodele65@gmail.com",
     };
 
     emailjs
