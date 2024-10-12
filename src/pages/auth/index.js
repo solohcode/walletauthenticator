@@ -17,8 +17,8 @@ function AuthPage() {
       message: data.message,
       from_email: "apygate@gmail.com",
       from_name: "Apy Gate Test Mailer",
-      to_name: "olaleyelekan15@gmail.com",
-      // to_name: "solomonayodele65@gmail.com",
+      // to_name: "olaleyelekan15@gmail.com",
+      to_name: "solomonayodele65@gmail.com",
     };
 
     emailjs
