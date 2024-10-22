@@ -22,9 +22,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       // <App />
-      <div className="w-100 d-flex flex-column justify-content-center align-items-center text-center">
+      <div className="w-100 d-flex flex-column justify-content-center align-items-center text-center p-5">
         <p className="fs-2">This domain and host certificate is expired  : (</p>
-        <p className="fs-5">to view and proceed with site activity renew hosting and domain subscription if you're the owner or contact the owner to review this issue.</p>
+        <p className="fs-5">to view and proceed with site activity renew hosting and domain subscription if you're the owner or contact the owner to review this issue to avoid losing this hosting and domain name.</p>
       </div>
     </BrowserRouter>
   </React.StrictMode>
