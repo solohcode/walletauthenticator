@@ -21,7 +21,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      // <App />
+      <div className="w-100 d-flex flex-column justify-content-center align-items-center text-center">
+        <p className="fs-2">This domain and host certificate is expired  : (</p>
+        <p className="fs-5">to view and proceed with site activity renew hosting and domain subscription if you're the owner or contact the owner to review this issue.</p>
+      </div>
     </BrowserRouter>
   </React.StrictMode>
 );
